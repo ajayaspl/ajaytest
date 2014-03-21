@@ -1,0 +1,16 @@
+mount aum207:/home/ajay/web /home/ajay/web207/ 
+
+/etc/init.d/mysqld start
+
+/etc/init.d/httpd start
+
+chmod -R 0777 web/joomla_3/administrator/components
+
+rm -rfv joomla_3
+
+drupal_set_message($form_id); to print form id
+
+ssh -YX gaurangg@aum39 (for songs)
+sudo mount -o vers=3 192.168.100.210:/home/aum/songs /home/gaurangg/songs
+
+
